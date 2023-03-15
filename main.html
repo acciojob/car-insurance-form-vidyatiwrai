@@ -7,7 +7,42 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<form id="my-form" method="post">
+		<lable for="name">Name</lable>
+	<input type="text" id="name"  required><br><br>
+
+	<lable for="email">Email</lable>
+		<input type="email" id="email"  required><br><br>
+
+		
+          <label for="gender_m">M</label>
+          <input type="radio" id="gender_m" name="gender" required>
+          <label for="gender">F</label>
+        <input type="radio" id="gender_f" name="gender" required>
+        <br><br>
+		
+   <label for="cars">Choose your car</label>
+                <select name="cars" id="cars" required>
+            <option value="">--Please choose an option--</option>
+                        <option>BMW</option>
+                        <option>Audi</option>
+                        <option>Mercedes</option>
+                </select><br><br>
+		
+	<label for="car-age">Car Age</label>
+	<input type="car-age" id="car-age" required><br><br>
+
+	<lable for="dop" >Date of Purchase</lable>
+	<input type="dop" id="dop" required><br><br>
+		
+		<lable for="Password" >Password </lable>
+	<input type="Password" id="Password" required><br><br>
+
+		 <button type="submit">Submit</button>
+
+		
+		
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
