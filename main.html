@@ -7,43 +7,44 @@
 </head>
 
 <body>
-	<form id="my-form" method="post">
-		<lable for="name">Name</lable>
-	<input type="text" id="name"  required><br><br>
-
-	<lable for="email">Email</lable>
-		<input type="email" id="email"  required><br><br>
-
-		
-          <label for="male">Male</label>
-          <input type="radio" id="male" name="gender" required>
-          <label for="female">Female</label>
-        <input type="radio" id="female" name="gender" required>
-        <br><br>
-		
-   <label for="cars">cars Brand</label>
-                <select name="cars" id="cars" required>
-                        <option>BMW</option>
-                        <option>Audi</option>
-                        <option>Mercedes</option>
-                </select><br><br>
-		
-	<label for="carage">Car Age</label>
-	<input type="carage" id="carage" required><br><br>
-
-	<lable for="dop" >Date of Purchase</lable>
-	<input type="dop" id="dop" required><br><br>
-		
-		<lable for="Password" >Password </lable>
-	<input type="Password" id="Password" required><br><br>
-
-		 <button type="submit">Submit</button>
-
-		
-		
-	</form>
+	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+
+	<form id="my-form" method="post">
+		<label for="name">Name</label>
+		<input type="text" required id="name"><br><br>
+
+			<label for="email">Email</label>
+		<input type="email" required id="email"><br><br>
+
+
+				<label for="gender">Gender</label>
+		<label for="male">Male</label>
+		<input type="radio" required name="gender" id="male">
+		<label for="female">Female</label>
+		
+		<input type="radio" required name="gender"  id="female"><br><br>
+        	<label for="cars">Car Brands</label>
+		<select name="cars" id="cars">
+
+			<option value="select">Select</option>
+			<option value="bmw">BMW</option>
+			<option value="audi">Audi</option>
+			<option value="mercedez">Mercedez</option>
+			
+		</select><br><br>
+
+	  	<label for="carage">Car Age</label>
+		<input type="carage" id="carage" required><br><br>
+
+		  	<label for="dop">Date of Purchase</label>
+		<input type="date" id="dop" required><br><br>
+
+		  	<label for="password">Password</label>
+		<input type="password" id="password" required ><br><br>
+		<button type="submit">Submit</button>
+	</form>
 
 </body>
 
